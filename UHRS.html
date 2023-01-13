@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+    <title>UHRS Clone</title>
+    
+    <!--If styling is too hard, work on the text first instead-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: rgb(254, 254, 254);
+        }
+        p {
+            font-family: Roboto, Arial;
+        }
+        .category-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .category-specification {
+            font-family: Roboto, Arial;
+            font-weight: medium;
+            display: grid;
+            border-width: 2px;
+            border-color: grey;
+            margin: 10px;
+            border-radius: 50px;
+            
+        }
+        .image-category {
+            background-color: rgba(234, 241, 250, 0.805);
+        }
+        
+        .image-card {
+            background-color: rgba(234, 241, 250, 0.805);
+            border-color: grey;
+        }
+
+        .card {
+            background-color: rgb(245, 245, 245);
+        }
+
+        .category-card {
+            font-size: 16px;
+            display: flex;
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+        }
+        .card-title {
+            flex: 1;
+        }
+        .card-number {
+            width: 25px;
+        }
+        .card-description {
+            font-size: 12px;
+            color: rgb(98, 97, 97);
+            margin-top: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 35px;
+        }
+    </style>
+    
+</head>
+<!--Work on body first-->
+<body>
+    <!--Create Display-->
+    <div class="header">
+        <div>menu</div>
+        <div>below menu</div>
+        <div>left-side</div>           
+    </div>
+
+    <div>below header</div>
+
+    <!--Create Display, which one can be grid-->
+    <div class="category-grid">
+        
+        <div class="category-specification">
+            <div class="image-card">
+                <img src="task-icon/search-relevance.2107b19ff889e5c0fd7bcdf90c4bc205.svg">
+            </div>
+            <div class="card">
+            <div class="category-card">
+                <div class="card-title"> Search relevance </div>
+                <div class="card-number"> 17 </div>
+            </div>
+            <div class="card-description"> Identifying query-result, relevance events, entity classification </div>
+            </div>
+        </div>
+
+        <div class="category-specification">
+            <div class="image-card">
+                <img src="task-icon/image-annotation.e6f55ea58f313b6e68ba817e5c26923c.svg">
+            </div>
+            <div class="card">
+            <div class="category-card">
+                <div class="card-title"> Image annotation </div>
+                <div class="card-number"> 8 </div>
+            </div>
+            <div class="card-description"> Classify images, semantic segmentation, object detection </div>
+            </div>
+        </div>
+
+        <div class="category-specification">
+            <div class="image-card">
+                <img src="task-icon/other.1ab708876cbee8d47120a905bb91e861.svg">
+            </div>
+            <div class="card">
+            <div class="category-card">
+                <div class="card-title"> Other </div>
+                <div class="card-number"> 8 </div>
+            </div>
+            <div class="card-description"> Ad hoc data collection tasks, information correction/moderation, and survey </div>
+            </div>
+        </div>
+        
+        <div class="category-specification">
+            <div class="image-card">
+                <img src="task-icon/text-annotation.cd54b4fbe96fc68fb4d520cdccec53f4.svg">
+            </div>
+            <div class="card">
+            <div class="category-card">
+                <div class="card-title"> Text annotation </div>
+                <div class="card-number">  6</div>
+            </div>
+            <div class="card-description"> Identify sentiment of a tweet, and document classification </div>
+            </div>
+        </div>
+        
+        <div class="category-specification">
+            <div class="image-card">
+                <img src="task-icon/video-annotation.b3dbf5984159a83679580653726ccfb5.svg">
+            </div>
+            <div class="card">
+            <div class="category-card">
+                <div class="card-title"> Video annotation </div>
+                <div class="card-number"> 0 </div>
+            </div>
+            <div class="card-description"> Video relevance for search query, video tracking, object detection </div>
+            </div>
+        </div>
+        
+        <div class="category-specification">
+            <div class="image-card">
+                <img src="task-icon/speech-transcription.69fb5d7d1b743a489cc6d31566924385.svg">
+            </div>
+            <div class="card">
+            <div class="category-card">
+                <div class="card-title"> Speech transcription </div>
+                <div class="card-number"> 0 </div>
+            </div>
+            <div class="card-description"> Validating audio to text, conversation, and relevance </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
